@@ -8,6 +8,7 @@ public class Student extends Exsepsion {
         if (age<0) {
             throw new Exsepsion("on san beriniz");
         }
+        this.age=age;
     }
 
     public Student() {
